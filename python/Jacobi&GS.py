@@ -79,7 +79,7 @@ if __name__ == "__main__":
     b = read_dense_vector(b_file_path)
 
     # 构建稠密矩阵
-    matrix_size = max(max(rows), max(cols)) + 1  # 计算矩阵大小
+    matrix_size = max(max(rows), max(cols)) + 1   # 计算矩阵大小
     A = construct_dense_matrix(rows, cols, values, matrix_size)
 
     tol = 1e-9
